@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!-- Name Label -->
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/garageTitle"
+                android:id="@+id/garageTitle"
+                android:layout_column="15" />
+
+            <TextView
+                android:id="@+id/garageLetter"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="2dip"
+                android:paddingTop="6dip"
+                android:text="@string/Name"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:layout_column="17" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/parkingSpotsTitle"
+                android:id="@+id/parkingSpotsTitle"
+                android:layout_column="15" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" "
+                android:id="@+id/textView"
+                android:layout_column="16" />
+
+            <TextView
+                android:id="@+id/openSpots"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/OpenSpots"
+                android:layout_column="17" />
+        </TableRow>
+
+    </TableLayout>
+
+    <!-- Email label -->
+
+    <!-- Mobile number label -->
+
+</LinearLayout>

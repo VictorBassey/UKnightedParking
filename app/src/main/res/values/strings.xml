@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">UKnightedParking</string>
+    <string name="title_activity_splash">Splash</string>
+    <string name="Name">Name</string>
+    <string name="ID">ID</string>
+    <string name="OpenSpots">OpenSpots</string>
+    <string name="garageTitle">Parking Garage:</string>
+    <string name="parkingSpotsTitle">Open Parking Spots:</string>
+</resources>
